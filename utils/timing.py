@@ -11,3 +11,4 @@ def benchmark(func: Callable) -> Callable:
         elapsed_ms = (time.perf_counter() - start) * 1000
         return result, elapsed_ms
     return wrapper
+

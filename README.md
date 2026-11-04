@@ -10,12 +10,13 @@ A structured, mathematically optimized repository of **[Project Euler](https://p
 
 ## 📊 Progress Dashboard
 
-- **Total Solved:** 3 Problems
+- **Total Solved:** 4 Problems
 - **Languages:** Python 3
 - **Test Coverage:** 100% automated pytest suite
 
 | # | Problem Title | Solution | Runtime | Status |
 | :---: | :--- | :---: | :---: | :---: |
+| **001** | [Multiples of 3 or 5](https://projecteuler.net/problem=1) | [`problem_001.py`](solutions/problem_001.py) | < 0.01 ms | ✅ Solved |
 | **009** | [Special Pythagorean Triplet](https://projecteuler.net/problem=9) | [`problem_009.py`](solutions/problem_009.py) | ~3.8 ms | ✅ Solved |
 | **016** | [Power Digit Sum](https://projecteuler.net/problem=16) | [`problem_016.py`](solutions/problem_016.py) | ~0.1 ms | ✅ Solved |
 | **020** | [Factorial Digit Sum](https://projecteuler.net/problem=20) | [`problem_020.py`](solutions/problem_020.py) | ~0.1 ms | ✅ Solved |
@@ -27,6 +28,7 @@ A structured, mathematically optimized repository of **[Project Euler](https://p
 ```
 project-euler/
 ├── solutions/               # Individual problem implementations
+│   ├── problem_001.py
 │   ├── problem_009.py
 │   ├── problem_016.py
 │   └── problem_020.py
@@ -74,3 +76,4 @@ pytest
 1. **The 1-Minute Rule**: Every algorithm is designed to execute within 1000 ms.
 2. **Deterministic & Test-Driven**: Solutions are verified using automated unit tests.
 3. **Clean Code**: Meaningful variable names, docstrings explaining mathematical reasoning, and PEP 8 formatting.
+
