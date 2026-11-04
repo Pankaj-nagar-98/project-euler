@@ -5,7 +5,7 @@ import pytest
 # Ensure solutions can be imported
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
-from solutions import problem_001, problem_002, problem_009, problem_016, problem_020
+from solutions import problem_001, problem_002, problem_003, problem_009, problem_016, problem_020
 
 def test_problem_001():
     # Test example given in problem description
@@ -18,6 +18,12 @@ def test_problem_002():
     assert problem_002.solve(100) == 44
     # Test full answer below 4,000,000
     assert problem_002.solve(4_000_000) == 4613732
+
+def test_problem_003():
+    # Test example given in problem description (13195 -> 29)
+    assert problem_003.solve(13195) == 29
+    # Test target number 600851475143 -> 6857
+    assert problem_003.solve(600851475143) == 6857
 
 def test_problem_009():
     assert problem_009.solve() == 31875000
