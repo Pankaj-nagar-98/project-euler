@@ -34,3 +34,4 @@ def solve(limit: int = 1000) -> int:
 if __name__ == "__main__":
     result = solve(1000)
     print(f"Project Euler Problem 1 Answer: {result}")
+
