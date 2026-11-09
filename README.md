@@ -10,7 +10,7 @@ A structured, mathematically optimized repository of **[Project Euler](https://p
 
 ## 📊 Progress Dashboard
 
-- **Total Solved:** 6 Problems
+- **Total Solved:** 7 Problems
 - **Languages:** Python 3
 - **Test Coverage:** 100% automated pytest suite
 
@@ -19,6 +19,7 @@ A structured, mathematically optimized repository of **[Project Euler](https://p
 | **001** | [Multiples of 3 or 5](https://projecteuler.net/problem=1) | [`problem_001.py`](solutions/problem_001.py) | < 0.01 ms | ✅ Solved |
 | **002** | [Even Fibonacci Numbers](https://projecteuler.net/problem=2) | [`problem_002.py`](solutions/problem_002.py) | < 0.01 ms | ✅ Solved |
 | **003** | [Largest Prime Factor](https://projecteuler.net/problem=3) | [`problem_003.py`](solutions/problem_003.py) | ~0.15 ms | ✅ Solved |
+| **008** | [Largest Product in a Series](https://projecteuler.net/problem=8) | [`problem_008.py`](solutions/problem_008.py) | ~0.40 ms | ✅ Solved |
 | **009** | [Special Pythagorean Triplet](https://projecteuler.net/problem=9) | [`problem_009.py`](solutions/problem_009.py) | ~3.8 ms | ✅ Solved |
 | **016** | [Power Digit Sum](https://projecteuler.net/problem=16) | [`problem_016.py`](solutions/problem_016.py) | ~0.1 ms | ✅ Solved |
 | **020** | [Factorial Digit Sum](https://projecteuler.net/problem=20) | [`problem_020.py`](solutions/problem_020.py) | ~0.1 ms | ✅ Solved |
@@ -33,6 +34,7 @@ project-euler/
 │   ├── problem_001.py
 │   ├── problem_002.py
 │   ├── problem_003.py
+│   ├── problem_008.py
 │   ├── problem_009.py
 │   ├── problem_016.py
 │   └── problem_020.py
