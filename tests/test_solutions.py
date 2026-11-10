@@ -11,6 +11,7 @@ from solutions import (
     problem_003,
     problem_008,
     problem_009,
+    problem_010,
     problem_016,
     problem_020,
 )
@@ -41,6 +42,13 @@ def test_problem_008():
 
 def test_problem_009():
     assert problem_009.solve() == 31875000
+
+def test_problem_010():
+    # Test example given in problem description (primes below 10 -> 17)
+    assert problem_010.solve(10) == 17
+    # Test target problem (primes below 2,000,000)
+    assert problem_010.solve(2_000_000) == 142913828922
+
 
 def test_problem_016():
     assert problem_016.solve() == 1366
