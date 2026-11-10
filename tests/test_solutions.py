@@ -12,6 +12,7 @@ from solutions import (
     problem_008,
     problem_009,
     problem_010,
+    problem_011,
     problem_016,
     problem_020,
 )
@@ -48,6 +49,11 @@ def test_problem_010():
     assert problem_010.solve(10) == 17
     # Test target problem (primes below 2,000,000)
     assert problem_010.solve(2_000_000) == 142913828922
+
+def test_problem_011():
+    # Verify the target problem answer
+    assert problem_011.solve() == 70600674
+
 
 
 def test_problem_016():
