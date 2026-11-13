@@ -13,6 +13,7 @@ from solutions import (
     problem_009,
     problem_010,
     problem_011,
+    problem_012,
     problem_016,
     problem_020,
 )
@@ -53,6 +54,12 @@ def test_problem_010():
 def test_problem_011():
     # Verify the target problem answer
     assert problem_011.solve() == 70600674
+
+def test_problem_012():
+    # Test example given in problem description (over 5 divisors -> 28)
+    assert problem_012.solve(5) == 28
+    # Test target problem (over 500 divisors)
+    assert problem_012.solve(500) == 76576500
 
 
 
