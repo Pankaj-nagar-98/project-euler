@@ -14,6 +14,7 @@ from solutions import (
     problem_010,
     problem_011,
     problem_012,
+    problem_013,
     problem_016,
     problem_020,
 )
@@ -60,6 +61,10 @@ def test_problem_012():
     assert problem_012.solve(5) == 28
     # Test target problem (over 500 divisors)
     assert problem_012.solve(500) == 76576500
+
+def test_problem_013():
+    # Test target problem: first 10 digits of the 100 50-digit numbers sum
+    assert problem_013.solve(10) == 5537376230
 
 
 
