@@ -15,6 +15,7 @@ from solutions import (
     problem_011,
     problem_012,
     problem_013,
+    problem_014,
     problem_016,
     problem_020,
 )
@@ -65,6 +66,11 @@ def test_problem_012():
 def test_problem_013():
     # Test target problem: first 10 digits of the 100 50-digit numbers sum
     assert problem_013.solve(10) == 5537376230
+
+def test_problem_014():
+    # Test example: starting with 13 generates 10 terms (starts below 20 produce 9 for 13 or similar)
+    # Target problem: starting number under one million
+    assert problem_014.solve(1_000_000) == 837799
 
 
 

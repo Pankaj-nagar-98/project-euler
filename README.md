@@ -10,7 +10,7 @@ A structured, mathematically optimized repository of **[Project Euler](https://p
 
 ## 📊 Progress Dashboard
 
-- **Total Solved:** 11 Problems
+- **Total Solved:** 12 Problems
 - **Languages:** Python 3
 - **Test Coverage:** 100% automated pytest suite
 
@@ -25,6 +25,7 @@ A structured, mathematically optimized repository of **[Project Euler](https://p
 | **011** | [Largest Product in a Grid](https://projecteuler.net/problem=11) | [`problem_011.py`](solutions/problem_011.py) | ~0.99 ms | ✅ Solved |
 | **012** | [Highly Divisible Triangular Number](https://projecteuler.net/problem=12) | [`problem_012.py`](solutions/problem_012.py) | ~40 ms | ✅ Solved |
 | **013** | [Large Sum](https://projecteuler.net/problem=13) | [`problem_013.py`](solutions/problem_013.py) | < 0.1 ms | ✅ Solved |
+| **014** | [Longest Collatz Sequence](https://projecteuler.net/problem=14) | [`problem_014.py`](solutions/problem_014.py) | ~890 ms | ✅ Solved |
 | **016** | [Power Digit Sum](https://projecteuler.net/problem=16) | [`problem_016.py`](solutions/problem_016.py) | ~0.1 ms | ✅ Solved |
 | **020** | [Factorial Digit Sum](https://projecteuler.net/problem=20) | [`problem_020.py`](solutions/problem_020.py) | ~0.1 ms | ✅ Solved |
 
@@ -44,6 +45,7 @@ project-euler/
 │   ├── problem_011.py
 │   ├── problem_012.py
 │   ├── problem_013.py
+│   ├── problem_014.py
 │   ├── problem_016.py
 │   └── problem_020.py
 ├── utils/                   # Shared mathematical helpers & decorators
