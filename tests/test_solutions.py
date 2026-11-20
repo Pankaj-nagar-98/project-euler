@@ -19,6 +19,7 @@ from solutions import (
     problem_015,
     problem_016,
     problem_017,
+    problem_018,
     problem_020,
 )
 
@@ -93,6 +94,18 @@ def test_problem_017():
     assert len(problem_017.number_to_words(115)) == 20
     # Test full target problem 1 to 1000
     assert problem_017.solve(1000) == 21124
+
+def test_problem_018():
+    example = """
+    3
+    7 4
+    2 4 6
+    8 5 9 3
+    """
+    # Test example triangle from problem description
+    assert problem_018.solve(example) == 23
+    # Test full 15-row triangle
+    assert problem_018.solve() == 1074
 
 def test_problem_020():
     assert problem_020.solve() == 648
