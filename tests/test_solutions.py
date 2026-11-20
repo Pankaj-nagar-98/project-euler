@@ -16,6 +16,7 @@ from solutions import (
     problem_012,
     problem_013,
     problem_014,
+    problem_015,
     problem_016,
     problem_020,
 )
@@ -71,6 +72,12 @@ def test_problem_014():
     # Test example: starting with 13 generates 10 terms (starts below 20 produce 9 for 13 or similar)
     # Target problem: starting number under one million
     assert problem_014.solve(1_000_000) == 837799
+
+def test_problem_015():
+    # Test example: 2x2 grid has 6 routes
+    assert problem_015.solve(2) == 6
+    # Target problem: 20x20 grid
+    assert problem_015.solve(20) == 137846528820
 
 
 
