@@ -18,6 +18,7 @@ from solutions import (
     problem_014,
     problem_015,
     problem_016,
+    problem_017,
     problem_020,
 )
 
@@ -83,6 +84,15 @@ def test_problem_015():
 
 def test_problem_016():
     assert problem_016.solve() == 1366
+
+def test_problem_017():
+    # Test example: 1 to 5 -> 19
+    assert problem_017.solve(5) == 19
+    # Test specific word lengths from problem description
+    assert len(problem_017.number_to_words(342)) == 23
+    assert len(problem_017.number_to_words(115)) == 20
+    # Test full target problem 1 to 1000
+    assert problem_017.solve(1000) == 21124
 
 def test_problem_020():
     assert problem_020.solve() == 648

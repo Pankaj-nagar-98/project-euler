@@ -10,7 +10,7 @@ A structured, mathematically optimized repository of **[Project Euler](https://p
 
 ## 📊 Progress Dashboard
 
-- **Total Solved:** 13 Problems
+- **Total Solved:** 14 Problems
 - **Languages:** Python 3
 - **Test Coverage:** 100% automated pytest suite
 
@@ -28,6 +28,7 @@ A structured, mathematically optimized repository of **[Project Euler](https://p
 | **014** | [Longest Collatz Sequence](https://projecteuler.net/problem=14) | [`problem_014.py`](solutions/problem_014.py) | ~890 ms | ✅ Solved |
 | **015** | [Lattice Paths](https://projecteuler.net/problem=15) | [`problem_015.py`](solutions/problem_015.py) | < 0.01 ms | ✅ Solved |
 | **016** | [Power Digit Sum](https://projecteuler.net/problem=16) | [`problem_016.py`](solutions/problem_016.py) | ~0.1 ms | ✅ Solved |
+| **017** | [Number Letter Counts](https://projecteuler.net/problem=17) | [`problem_017.py`](solutions/problem_017.py) | ~0.3 ms | ✅ Solved |
 | **020** | [Factorial Digit Sum](https://projecteuler.net/problem=20) | [`problem_020.py`](solutions/problem_020.py) | ~0.1 ms | ✅ Solved |
 
 ---
@@ -49,6 +50,7 @@ project-euler/
 │   ├── problem_014.py
 │   ├── problem_015.py
 │   ├── problem_016.py
+│   ├── problem_017.py
 │   └── problem_020.py
 ├── utils/                   # Shared mathematical helpers & decorators
 │   ├── __init__.py
