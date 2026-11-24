@@ -10,7 +10,7 @@ A structured, mathematically optimized repository of **[Project Euler](https://p
 
 ## 📊 Progress Dashboard
 
-- **Total Solved:** 15 Problems
+- **Total Solved:** 16 Problems
 - **Languages:** Python 3
 - **Test Coverage:** 100% automated pytest suite
 
@@ -30,6 +30,7 @@ A structured, mathematically optimized repository of **[Project Euler](https://p
 | **016** | [Power Digit Sum](https://projecteuler.net/problem=16) | [`problem_016.py`](solutions/problem_016.py) | ~0.1 ms | ✅ Solved |
 | **017** | [Number Letter Counts](https://projecteuler.net/problem=17) | [`problem_017.py`](solutions/problem_017.py) | ~0.3 ms | ✅ Solved |
 | **018** | [Maximum Path Sum I](https://projecteuler.net/problem=18) | [`problem_018.py`](solutions/problem_018.py) | < 0.05 ms | ✅ Solved |
+| **019** | [Counting Sundays](https://projecteuler.net/problem=19) | [`problem_019.py`](solutions/problem_019.py) | < 0.2 ms | ✅ Solved |
 | **020** | [Factorial Digit Sum](https://projecteuler.net/problem=20) | [`problem_020.py`](solutions/problem_020.py) | ~0.1 ms | ✅ Solved |
 
 ---
@@ -53,6 +54,7 @@ project-euler/
 │   ├── problem_016.py
 │   ├── problem_017.py
 │   ├── problem_018.py
+│   ├── problem_019.py
 │   └── problem_020.py
 ├── utils/                   # Shared mathematical helpers & decorators
 │   ├── __init__.py

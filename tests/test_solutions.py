@@ -20,6 +20,7 @@ from solutions import (
     problem_016,
     problem_017,
     problem_018,
+    problem_019,
     problem_020,
 )
 
@@ -106,6 +107,10 @@ def test_problem_018():
     assert problem_018.solve(example) == 23
     # Test full 15-row triangle
     assert problem_018.solve() == 1074
+
+def test_problem_019():
+    # Test counting first-of-the-month Sundays during the 20th century (1901 to 2000)
+    assert problem_019.solve(1901, 2000) == 171
 
 def test_problem_020():
     assert problem_020.solve() == 648
