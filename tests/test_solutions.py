@@ -22,6 +22,7 @@ from solutions import (
     problem_018,
     problem_019,
     problem_020,
+    problem_021,
 )
 
 def test_problem_001():
@@ -114,4 +115,12 @@ def test_problem_019():
 
 def test_problem_020():
     assert problem_020.solve() == 648
+
+def test_problem_021():
+    # Test example given in problem description (d(220) = 284, d(284) = 220)
+    assert problem_021.sum_proper_divisors(220) == 284
+    assert problem_021.sum_proper_divisors(284) == 220
+    # Test full sum of amicable numbers under 10000
+    assert problem_021.solve(10000) == 31626
+
 
